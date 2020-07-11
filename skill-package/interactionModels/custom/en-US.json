@@ -1,0 +1,110 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "stories for me",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NextIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PauseIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ResumeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "ChangeStoryIntent",
+                    "slots": [],
+                    "samples": [
+                        "change the story",
+                        "change story",
+                        "please change the story",
+                        "change please",
+                        "different story please",
+                        "another one please",
+                        "another story",
+                        "are there more stories",
+                        "is there any other story",
+                        "tell me some other story",
+                        "tell me another one",
+                        "different story"
+                    ]
+                },
+                {
+                    "name": "StoryTypeIntent",
+                    "slots": [
+                        {
+                            "name": "StoryType",
+                            "type": "StoryTypeSlot"
+                        }
+                    ],
+                    "samples": [
+                        "a {StoryType} story",
+                        "do you know any {StoryType} story",
+                        "tell me a {StoryType} story",
+                        "i want to hear {StoryType} story",
+                        "{StoryType} story",
+                        "{StoryType}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "StoryTypeSlot",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "animal",
+                                "synonyms": [
+                                    "monkey",
+                                    "mouse",
+                                    "lion",
+                                    "jungle"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "princess",
+                                "synonyms": [
+                                    "prince"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "fairy",
+                                "synonyms": [
+                                    "witch",
+                                    "magic powers",
+                                    "magical",
+                                    "fairies"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+  }
+  

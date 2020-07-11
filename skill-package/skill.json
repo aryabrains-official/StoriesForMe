@@ -1,0 +1,35 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Stories for me is a kill which narrates various stories at a pace which your kids will understand and love.",
+          "examplePhrases": [
+            "Alexa open stories for me",
+            "Alexa play stories for me",
+            "Alexa next story"
+          ],
+          "name": "Stories for me",
+          "description": "This skill contains various stories divided into categories like fairy stories, animal stories, princess stories etc. This skill tries to narrate stories at a pace which is easy for kids to understand and enjoy."
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:372756566841:function:ask-Storiesforme-default-skillS-AlexaSkillFunction-16N7ZJBS7VI4D"
+        },
+        "interfaces": [
+          {
+            "type": "AUDIO_PLAYER"
+          }
+        ]
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
